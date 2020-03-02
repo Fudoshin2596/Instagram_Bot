@@ -15,11 +15,11 @@ url = 'https://www.instagram.com/accounts/login/'
 prefix = 'https://www.instagram.com/'
 
 # Credentials
-user = 'email@address'  # fill with username
-password = 'password'  # fill with password
+user = 'jjatest1'  # fill with username
+password = 'Qnacmg797y'  # fill with password
 
 # my cats username made seperate incase i want the functionality to plug various users into the prefix template
-target_user = 'name'  # fill with target users instagram name
+target_user = '_bijouthekitten'  # fill with target users instagram name
 
 
 class Bot():
@@ -28,7 +28,7 @@ class Bot():
         self.email = email
         self.password = password
 
-    def signIn(self):
+    def signin(self):
         driver = self.browser
         driver.get(url)
         driver.implicitly_wait(10)
@@ -78,14 +78,14 @@ class Bot():
 
         # print('done')
 
-    def closeBrowser(self):
+    def closebrowser(self):
         self.browser.close()
 
     def __exit__(self, exc_type, exc_value, traceback):
-        self.closeBrowser()
+        self.closebrowser()
 
 
 bot = Bot(user, password)
-bot.signIn()
+bot.signin()
 bot.like_photo(target_user)
 bot.closeBrowser()
