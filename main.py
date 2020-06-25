@@ -15,11 +15,11 @@ url = 'https://www.instagram.com/accounts/login/'
 prefix = 'https://www.instagram.com/'
 
 # Credentials
-user = 'jjatest1'  # fill with username
-password = 'Qnacmg797y'  # fill with password
+user = 'user'  # fill with username
+password = 'password'  # fill with password
 
 # my cats username made seperate incase i want the functionality to plug various users into the prefix template
-target_user = '_bijouthekitten'  # fill with target users instagram name
+target_user = 'target'  # fill with target users instagram name
 
 
 class Bot():
