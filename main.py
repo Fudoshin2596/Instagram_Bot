@@ -18,7 +18,7 @@ prefix = 'https://www.instagram.com/'
 user = 'user'  # fill with username
 password = 'password'  # fill with password
 
-# my cats username made seperate incase i want the functionality to plug various users into the prefix template
+# my target username made seperate incase i want the functionality to plug various users into the prefix template
 target_user = 'target'  # fill with target users instagram name
 
 
